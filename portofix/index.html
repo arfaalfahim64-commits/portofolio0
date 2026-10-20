@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Arfa Alfahim</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">Porto<span>folio</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-text">
+            <span class="badge">Halo!</span>
+            <h1>Saya <span>Arfa Alfahim</span></h1>
+            <p>Siswa SMK Plus Pelita Nusantara Jurusan Rekayasa Perangkat Lunak (RPL) yang berfokus pada pengembangan
+                web. Senang memecahkan masalah lewat kode dan terus mempelajari teknologi baru untuk menciptakan solusi
+                digital yang lebih baik</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Contact</a>
+                <a href="#project" class="btn btn-outline">Project</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div class="hero-image-frame">
+                <img src="foto saya.jpg" </div>
+            </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p>Saya seorang Full Stack Developer di bidang Rekayasa Perangkat lunak. Saya adalah pribadi yang suka
+                    belajar, mencoba hal baru, dan terus mengembangkan kemampuan diri. Di luar kegiatan coding, saya
+                    memiliki hobi olahraga dan membaca novel.</p>
+                <p>Saya terbiasa bekerja dalam sebuah tim, berkomunikasi dengan baik, serta bertanggung jawab terhadap
+                    tugas yang diberikan. Saya juga memiliki kemampuan dalam memecahkan masalah, beradaptasi dengan
+                    lingkungan baru, dan bekerja sama untuk mencapai tujuan bersama.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3>1+</h3>
+                    <p>Tahun Belajar Coding</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5+</h3>
+                    <p>Proyek Selesai</p>
+                </div>
+                <div class="stat-card">
+                    <h3>5+</h3>
+                    <p>Sertifikat</p>
+                </div>
+                <div class="stat-card">
+                    <h3>RPL</h3>
+                    <p>Devacto-Machine Laerning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-subtitle">
+            Teknologi dan tools yang saya pelajari dan terapkan secara aktif dalam pengembangan web dan aplikasi
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="skills-filter-container">
+            <div class="skills-filter-nav" role="tablist" aria-label="Filter Kategori Keahlian">
+                <button type="button" class="skill-filter-btn active" data-filter="all" role="tab" aria-selected="true">Semua</button>
+                <button type="button" class="skill-filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend</button>
+                <button type="button" class="skill-filter-btn" data-filter="backend" role="tab" aria-selected="false">Backend</button>
+                <button type="button" class="skill-filter-btn" data-filter="database" role="tab" aria-selected="false">Database</button>
+                <button type="button" class="skill-filter-btn" data-filter="design" role="tab" aria-selected="false">UI/UX Design</button>
+            </div>
+        </div>
+
+        <!-- Skills Grid Cards -->
+        <div class="skills-grid">
+
+            <!-- 1. HTML5 -->
+            <div class="skill-modern-card" data-category="frontend">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box html-box" title="HTML5">
+                        <svg viewBox="0 0 512 512" width="34" height="34" aria-label="HTML5 Logo">
+                            <path fill="#E34F26" d="M71 460L30 0h452l-41 460-185 52z"/>
+                            <path fill="#EF652A" d="M256 472l149-41 35-394H256z"/>
+                            <path fill="#ECECEC" d="M256 208h-74l-5-58h79V94H114l15 170h127zm0 147l-65-18-4-47h-56l8 97 117 32z"/>
+                            <path fill="#FFF" d="M256 208v56h70l-7 74-63 17v56l117-32 16-171zm0-114v56h135l5-56z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">Frontend</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">HTML5</h3>
+                    <p class="skill-desc">Struktur semantik & fondasi halaman web modern berstandar W3C.</p>
+                </div>
+            </div>
+
+            <!-- 2. CSS3 -->
+            <div class="skill-modern-card" data-category="frontend">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box css-box" title="CSS3">
+                        <svg viewBox="0 0 512 512" width="34" height="34" aria-label="CSS3 Logo">
+                            <path fill="#1572B6" d="M71 460L30 0h452l-41 460-185 52z"/>
+                            <path fill="#33A9DC" d="M256 472l149-41 35-394H256z"/>
+                            <path fill="#ECECEC" d="M256 208h-74l-5-58h79V94H114l15 170h127zm0 147l-65-18-4-47h-56l8 97 117 32z"/>
+                            <path fill="#FFF" d="M256 208v56h70l-7 74-63 17v56l117-32 16-171zm0-114v56h135l5-56z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">Frontend</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">CSS3</h3>
+                    <p class="skill-desc">Styling responsif, tata letak Flexbox & Grid, dan animasi transisi modern.</p>
+                </div>
+            </div>
+
+            <!-- 3. JAVASCRIPT -->
+            <div class="skill-modern-card" data-category="frontend">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box js-box" title="JavaScript">
+                        <svg viewBox="0 0 630 630" width="32" height="32" aria-label="JavaScript Logo">
+                            <rect width="630" height="630" rx="40" fill="#F7DF1E"/>
+                            <path d="M323.2 367.5c0 73.6-40.5 114.7-101.4 114.7-55.7 0-91.5-30.8-106.6-67.4l65-37.8c9.7 18.9 22.1 33.5 43.2 33.5 22.7 0 35.1-10.8 35.1-39.4v-211h64.7v207.4zm164.7-4.3c15.7 25.4 37.8 41.6 72.9 41.6 30.8 0 50.8-15.1 50.8-36.2 0-25.4-20.5-34.6-54.6-49.2l-18.9-8.1c-54.6-23.2-90.8-52.4-90.8-114.6 0-56.7 44.3-99.4 113.4-99.4 49.2 0 84.8 17.8 107.5 58.9l-58.9 37.8c-11.9-21.6-27.6-30.8-49.2-30.8-22.1 0-35.6 13.5-35.6 30.8 0 22.1 14.6 30.8 48.6 45.4l18.9 8.1c65.4 28.1 98.4 56.2 98.4 119.4 0 68.1-52.9 104.3-118.9 104.3-66.5 0-110.8-34.6-130.8-76.7l47.2-31.4z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">Frontend</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-desc">Manipulasi DOM dinamis, asynchronous fetch API, dan logika aplikasi web.</p>
+                </div>
+            </div>
+
+            <!-- 4. PHP -->
+            <div class="skill-modern-card" data-category="backend">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box php-box" title="PHP">
+                        <svg viewBox="0 0 256 137" width="36" height="22" aria-label="PHP Logo">
+                            <ellipse cx="128" cy="68.5" rx="128" ry="68.5" fill="#777BB4"/>
+                            <path fill="#FFF" d="M69.8 40.7c-5.8-2.6-13.6-3.9-23.3-3.9H23.7L7.2 100.2h18.2l4.8-18.7h13.2c10.4 0 18.4-2.5 24.1-7.5s8.6-12 8.6-21.1c0-5.1-1.4-9.2-4.3-12.2h-2zm-22.6 28h-11l5-19.4h11c4.5 0 7.8.9 9.8 2.8s3.1 4.7 3.1 8.5c0 2.8-.9 5-2.6 6.5s-4.6 2.3-8.3 2.3h-7zm67.1-31.9h-18.2l-16.5 63.4h18.2l6-23.1h15.2c10.4 0 18.4-2.5 24.1-7.5s8.6-12 8.6-21.1c0-5.1-1.4-9.2-4.3-12.2s-7.3-3.9-13.1-3.9v4.4zm-2.4 28h-11l5-19.4h11c4.5 0 7.8.9 9.8 2.8s3.1 4.7 3.1 8.5c0 2.8-.9 5-2.6 6.5s-4.6 2.3-8.3 2.3h-7zm74.7-28h-18.2l-6 23.1h-16.7l6-23.1h-18.2l-16.5 63.4h18.2l6-23.1h16.7l-6 23.1h18.2l16.5-63.4z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">Backend</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">PHP</h3>
+                    <p class="skill-desc">Server-side scripting, pemrosesan form, dan komunikasi database relational.</p>
+                </div>
+            </div>
+
+            <!-- 5. LARAVEL -->
+            <div class="skill-modern-card" data-category="backend">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box laravel-box" title="Laravel">
+                        <svg viewBox="0 0 100 100" width="34" height="34" aria-label="Laravel Logo">
+                            <path fill="#FF2D20" d="M89.7 28.5L52.8 7.2c-1.7-1-3.9-1-5.6 0L10.3 28.5c-1.7 1-2.8 2.8-2.8 4.8v42.6c0 2 1.1 3.8 2.8 4.8l36.9 21.3c.9.5 1.8.8 2.8.8s1.9-.3 2.8-.8l36.9-21.3c1.7-1 2.8-2.8 2.8-4.8V33.3c0-2-1.1-3.8-2.8-4.8zM50 87.7L18.4 69.5V36.9L50 55.1v32.6zm3.3-38.3L22.5 31.6 50 15.7l27.5 15.9-24.2 17.8zm28.3 20.1L53.3 52.8V20.2l31.6 18.2v31.1h-3.3z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">Backend</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">Laravel</h3>
+                    <p class="skill-desc">Penerapan arsitektur MVC, routing, controller, dan integrasi Eloquent ORM.</p>
+                </div>
+            </div>
+
+            <!-- 6. PYTHON -->
+            <div class="skill-modern-card" data-category="backend">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box python-box" title="Python">
+                        <svg viewBox="0 0 128 128" width="32" height="32" aria-label="Python Logo">
+                            <path fill="#3776AB" d="M63.4 3c-15.3 0-24.6 6.7-24.6 15.6v11.4h25.2v3.6H27.4C12.1 33.6 0 43.7 0 63.4c0 19.3 10.6 30 25.9 30h7.7v-13.8c0-10.8 9.3-20.1 20.1-20.1h25.2c8.2 0 14.8-6.9 14.8-15.1V18.6C93.7 9.7 82.5 3 63.4 3zm-9.3 9.4c3 0 5.4 2.4 5.4 5.4s-2.4 5.4-5.4 5.4-5.4-2.4-5.4-5.4 2.4-5.4 5.4-5.4z"/>
+                            <path fill="#FFD438" d="M64.6 125c15.3 0 24.6-6.7 24.6-15.6V98H64v-3.6h36.6c15.3 0 27.4-10.1 27.4-29.8 0-19.3-10.6-30-25.9-30h-7.7v13.8c0 10.8-9.3 20.1-20.1 20.1H49.1c-8.2 0-14.8 6.9-14.8 15.1v25.8c0 8.9 11.2 15.6 30.3 15.6zm9.3-9.4c-3 0-5.4-2.4-5.4-5.4s2.4-5.4 5.4-5.4 5.4 2.4 5.4 5.4-2.4-5.4-5.4 5.4z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">Backend</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">Python</h3>
+                    <p class="skill-desc">Algoritma pemrograman, data logic, otomasi, dan dasar machine learning.</p>
+                </div>
+            </div>
+
+            <!-- 7. MYSQL -->
+            <div class="skill-modern-card" data-category="database">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box mysql-box" title="MySQL">
+                        <svg viewBox="0 0 128 128" width="34" height="34" aria-label="MySQL Logo">
+                            <path fill="#00758F" d="M125.7 66.5c-1.3-4.1-3.6-7.8-6.6-10.8-4.2-4.2-9.6-6.8-15.4-7.6-5.8-.8-11.7.2-17 2.8-5.3 2.6-9.8 6.8-12.8 12-3-5.2-7.5-9.4-12.8-12-5.3-2.6-11.2-3.6-17-2.8-5.8.8-11.2 3.4-15.4 7.6-3 3-5.3 6.7-6.6 10.8-1.5 4.6-1.7 9.5-.7 14.2 1.1 4.7 3.3 9 6.5 12.5 3.2 3.5 7.3 6.1 11.9 7.5 4.6 1.4 9.5 1.5 14.2.4 4.7-1.1 9-3.3 12.5-6.5 3.5-3.2 6.1-7.3 7.4-11.9.1-.4.3-.8.6-1.1.3-.3.7-.5 1.1-.6.4-.1.8 0 1.2.2.4.2.7.5.9.9 1.3 4.6 3.9 8.7 7.4 11.9 3.5 3.2 7.8 5.4 12.5 6.5 4.7 1.1 9.6 1 14.2-.4 4.6-1.4 8.7-4 11.9-7.5 3.2-3.5 5.4-7.8 6.5-12.5 1-4.7.8-9.6-.7-14.2zm-67.4 7.6c-1.6 3.8-4.3 7-7.8 9.2-3.5 2.2-7.6 3.2-11.7 2.9-4.1-.3-8-1.9-11.1-4.6-3.1-2.7-5.2-6.3-6-10.3-.8-4-.3-8.2 1.5-11.9 1.8-3.7 4.7-6.7 8.3-8.7 3.6-2 7.8-2.7 11.9-2.1 4.1.6 7.9 2.5 10.8 5.4 2.9 2.9 4.8 6.7 5.4 10.8.6 4.1-.1 8.3-2.1 12.1v-.1zm63.4-2.8c-.8 4-2.9 7.6-6 10.3-3.1 2.7-7 4.3-11.1 4.6-4.1.3-8.2-.7-11.7-2.9-3.5-2.2-6.2-5.4-7.8-9.2-1.6-3.8-2-8-1.2-12.1.8-4.1 2.7-7.9 5.6-10.8 2.9-2.9 6.7-4.8 10.8-5.4 4.1-.6 8.3.1 11.9 2.1 3.6 2 6.5 5 8.3 8.7 1.8 3.7 2.3 7.9 1.5 11.9l-.3 2.8z"/>
+                            <path fill="#F29111" d="M64 12c-4 0-7.8 1.6-10.6 4.4S49 23 49 27s1.6 7.8 4.4 10.6S60 42 64 42s7.8-1.6 10.6-4.4S79 31 79 27s-1.6-7.8-4.4-10.6S68 12 64 12z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">Database</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">MySQL</h3>
+                    <p class="skill-desc">Desain skema tabel basis data, relasi foreign key, dan query CRUD terstruktur.</p>
+                </div>
+            </div>
+
+            <!-- 8. FIGMA -->
+            <div class="skill-modern-card" data-category="design">
+                <div class="skill-card-top">
+                    <div class="skill-icon-box figma-box" title="Figma">
+                        <svg viewBox="0 0 38 57" width="22" height="33" aria-label="Figma Logo">
+                            <path fill="#1ABCFE" d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z"/>
+                            <path fill="#0ACF83" d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z"/>
+                            <path fill="#FF7262" d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z"/>
+                            <path fill="#F24E1E" d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z"/>
+                            <path fill="#A259FF" d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z"/>
+                        </svg>
+                    </div>
+                    <span class="skill-category-badge">UI/UX Design</span>
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skill-name">Figma</h3>
+                    <p class="skill-desc">Wireframing, perancangan antarmuka visual (UI), dan interaktif prototyping.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certificates">
+
+        <h2 class="section-title">Certificates</h2>
+
+        <p class="section-subtitle">
+            Beberapa sertifikat yang saya peroleh selama proses belajar dan pengembangan diri
+        </p>
+
+        <div class="cert-slider-wrapper">
+            <!-- Tombol Navigasi Prev -->
+            <button type="button" class="cert-nav-btn cert-prev" aria-label="Sertifikat Sebelumnya" id="certPrevBtn">
+                <i data-feather="chevron-left"></i>
+            </button>
+
+            <!-- Container & Track Slider -->
+            <div class="cert-slider-container" id="certSliderContainer" tabindex="0" role="region" aria-label="Slider Sertifikat">
+                <div class="cert-slider-track" id="certSliderTrack">
+
+                    <!-- Sertifikat 1 -->
+                    <div class="cert-slide active" data-index="0">
+                        <div class="certificate-card">
+                            <div class="certificate-image" role="button" tabindex="0" aria-label="Perbesar Sertifikat CodeLamp">
+                                <img src="sertif/sertif1_page-0001.jpg" alt="Sertifikat CodeLamp" loading="lazy">
+                                <div class="cert-zoom-hint">
+                                    <i data-feather="zoom-in"></i>
+                                    <span>Klik untuk Perbesar</span>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <span class="cert-badge">Kredensial 01</span>
+                                <h3>Sertifikat CodeLamp</h3>
+                                <p>Game Design : From hoby to hook - Hooked in minutes, Engage for days</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sertifikat 2 -->
+                    <div class="cert-slide" data-index="1">
+                        <div class="certificate-card">
+                            <div class="certificate-image" role="button" tabindex="0" aria-label="Perbesar Sertifikat Id-Networkers">
+                                <img src="sertif/sertif4_page-0001.jpg" alt="Sertifikat Id-Networkers" loading="lazy">
+                                <div class="cert-zoom-hint">
+                                    <i data-feather="zoom-in"></i>
+                                    <span>Klik untuk Perbesar</span>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <span class="cert-badge">Kredensial 02</span>
+                                <h3>Sertifikat Id-Networkers</h3>
+                                <p>Certificate of Completion for Cyber Security course</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sertifikat 3 -->
+                    <div class="cert-slide" data-index="2">
+                        <div class="certificate-card">
+                            <div class="certificate-image" role="button" tabindex="0" aria-label="Perbesar Sertifikat Teknologi AI">
+                                <img src="sertif/sertif6_page-0001.jpg" alt="Sertifikat Teknologi AI" loading="lazy">
+                                <div class="cert-zoom-hint">
+                                    <i data-feather="zoom-in"></i>
+                                    <span>Klik untuk Perbesar</span>
+                                </div>
+                            </div>
+                            <div class="certificate-info">
+                                <span class="cert-badge">Kredensial 03</span>
+                                <h3>Sertifikat Teknologi AI</h3>
+                                <p>Certificate of Achievement : Coding AI untuk masa depan edukasi digital</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tombol Navigasi Next -->
+            <button type="button" class="cert-nav-btn cert-next" aria-label="Sertifikat Berikutnya" id="certNextBtn">
+                <i data-feather="chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Kontrol Slider (Dots & Counter) -->
+        <div class="cert-slider-controls">
+            <div class="cert-dots" id="certDots" role="tablist" aria-label="Pilih Slide Sertifikat"></div>
+            <div class="cert-counter" id="certCounter" aria-live="polite">
+                <span class="cert-current-num">01</span> / <span class="cert-total-num">03</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- LIGHTBOX / FULLSCREEN ZOOM MODAL -->
+    <div id="certificateLightbox" class="cert-lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="cert-lightbox-backdrop" id="certLightboxBackdrop"></div>
+
+        <!-- Header Modal & Kontrol Zoom -->
+        <div class="cert-lightbox-header">
+            <div class="cert-lightbox-info">
+                <h3 id="certLightboxTitle">Sertifikat</h3>
+                <p id="certLightboxSubtitle">Deskripsi sertifikat</p>
+            </div>
+
+            <div class="cert-lightbox-tools">
+                <button type="button" class="cert-tool-btn" id="certZoomOutBtn" title="Zoom Out (-)" aria-label="Zoom Out">
+                    <i data-feather="minus"></i>
+                </button>
+                <span class="cert-zoom-level" id="certZoomLevel">100%</span>
+                <button type="button" class="cert-tool-btn" id="certZoomInBtn" title="Zoom In (+)" aria-label="Zoom In">
+                    <i data-feather="plus"></i>
+                </button>
+                <button type="button" class="cert-tool-btn" id="certZoomResetBtn" title="Reset Ukuran (R)" aria-label="Reset Ukuran">
+                    <i data-feather="rotate-ccw"></i>
+                </button>
+                <button type="button" class="cert-tool-btn cert-close-btn" id="certCloseBtn" title="Tutup (Esc)" aria-label="Tutup Preview">
+                    <i data-feather="x"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Viewport Preview & Gambar -->
+        <div class="cert-lightbox-viewport" id="certLightboxViewport">
+            <button type="button" class="cert-modal-nav cert-modal-prev" id="certModalPrevBtn" title="Sertifikat Sebelumnya" aria-label="Sertifikat Sebelumnya">
+                <i data-feather="chevron-left"></i>
+            </button>
+
+            <div class="cert-lightbox-canvas" id="certLightboxCanvas">
+                <img id="certLightboxImg" src="" alt="Preview Sertifikat" draggable="false">
+            </div>
+
+            <button type="button" class="cert-modal-nav cert-modal-next" id="certModalNextBtn" title="Sertifikat Berikutnya" aria-label="Sertifikat Berikutnya">
+                <i data-feather="chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Footer Tips Navigasi -->
+        <div class="cert-lightbox-footer">
+            <div class="cert-lightbox-tips">
+                <span><i data-feather="mouse-pointer"></i> Scroll / Pinch untuk Zoom</span>
+                <span>•</span>
+                <span><i data-feather="move"></i> Drag untuk Menggeser</span>
+                <span>•</span>
+                <span><i data-feather="corner-down-left"></i> ESC / Klik Area Luar untuk Keluar</span>
+            </div>
+        </div>
+    </div>
+
+    <section id="project">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <p class="section-subtitle">
+            Beberapa project yang telah saya buat selama belajar dan mengembangkan kemampuan
+        </p>
+
+        <div class="project-showcase">
+            <!-- Modern Segmented Pill Tabs Navigation -->
+            <div class="project-pill-nav-container">
+                <div class="project-pill-nav" role="tablist" aria-label="Pilih Proyek">
+                    <button type="button" class="project-pill-tab active" data-project="0" role="tab" aria-selected="true">
+                        <span class="tab-index">01</span>
+                        <span class="tab-name">Jam Digital</span>
+                    </button>
+                    <button type="button" class="project-pill-tab" data-project="1" role="tab" aria-selected="false">
+                        <span class="tab-index">02</span>
+                        <span class="tab-name">Sistem Inventaris</span>
+                    </button>
+                    <button type="button" class="project-pill-tab" data-project="2" role="tab" aria-selected="false">
+                        <span class="tab-index">03</span>
+                        <span class="tab-name">Roblox Game</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Main Showcase Card (Two Columns) -->
+            <div class="project-main-card" id="projectMainCard">
+                <!-- Kolom Kiri: Informasi Proyek -->
+                <div class="project-content-col">
+                    <div class="project-category-badge" id="projectCategoryBadge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Web Application</span>
+                    </div>
+
+                    <h3 class="project-title-large" id="projectTitle">Jam Digital</h3>
+
+                    <p class="project-desc-text" id="projectDesc">
+                        Aplikasi Jam Digital interaktif berbasis web yang dibangun dengan JavaScript murni. Menampilkan penunjuk waktu secara presisi dan real-time dengan tampilan modern, adaptif terhadap mode visual, serta responsif di berbagai perangkat.
+                    </p>
+
+                    <div class="project-tech-chips" id="projectTechChips">
+                        <span class="tech-chip">HTML5</span>
+                        <span class="tech-chip">CSS3</span>
+                        <span class="tech-chip">JavaScript</span>
+                    </div>
+
+                    <div class="project-action-row">
+                        <button type="button" class="project-btn-seemore" id="projectSeeMoreBtn" aria-label="Lihat Detail Proyek">
+                            <span>See More</span>
+                            <i data-feather="arrow-up-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Kolom Kanan: Preview Gambar Proyek (Browser Frame Mockup) -->
+                <div class="project-visual-col">
+                    <div class="project-browser-frame" id="projectPreviewFrame" role="button" tabindex="0" title="Klik untuk melihat detail proyek" aria-label="Lihat Detail Proyek">
+                        <div class="browser-top-bar">
+                            <div class="browser-dots">
+                                <span class="b-dot red"></span>
+                                <span class="b-dot yellow"></span>
+                                <span class="b-dot green"></span>
+                            </div>
+                            <div class="browser-url-bar" id="browserUrlBar">project.arfa.dev/jam-digital</div>
+                        </div>
+                        <div class="browser-screen">
+                            <img id="projectPreviewImg" src="sertif/project1.png" alt="Preview Jam Digital">
+                            <div class="preview-hover-hint">
+                                <i data-feather="maximize-2"></i>
+                                <span>Buka Detail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Switch Nav (Prev / Next & Counter) -->
+            <div class="project-nav-bar">
+                <button type="button" class="proj-nav-arrow" id="projPrevBtn" aria-label="Proyek Sebelumnya">
+                    <i data-feather="chevron-left"></i>
+                    <span>Sebelumnya</span>
+                </button>
+                <div class="proj-counter">
+                    <span id="projActiveNum">01</span> / <span id="projTotalNum">03</span>
+                </div>
+                <button type="button" class="proj-nav-arrow" id="projNextBtn" aria-label="Proyek Berikutnya">
+                    <span>Berikutnya</span>
+                    <i data-feather="chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MODAL DETAIL PROYEK -->
+    <div id="projectDetailModal" class="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="project-modal-backdrop" id="projectModalBackdrop"></div>
+        <div class="project-modal-dialog">
+            <div class="project-modal-header">
+                <div class="modal-header-info">
+                    <span class="modal-cat-badge" id="modalCatBadge">Web Application</span>
+                    <h3 id="modalProjectTitle">Jam Digital</h3>
+                </div>
+                <button type="button" class="project-modal-close" id="projectModalCloseBtn" aria-label="Tutup Detail Proyek">
+                    <i data-feather="x"></i>
+                </button>
+            </div>
+
+            <div class="project-modal-body">
+                <div class="modal-image-showcase">
+                    <img id="modalProjectImg" src="sertif/project1.png" alt="Detail Proyek">
+                </div>
+
+                <div class="modal-info-grid">
+                    <div class="modal-info-block">
+                        <h4><i data-feather="info"></i> Tentang Proyek</h4>
+                        <p id="modalProjectOverview"></p>
+                    </div>
+
+                    <div class="modal-info-block">
+                        <h4><i data-feather="check-circle"></i> Fitur Utama</h4>
+                        <ul class="modal-feature-list" id="modalProjectFeatures"></ul>
+                    </div>
+
+                    <div class="modal-info-block">
+                        <h4><i data-feather="cpu"></i> Teknologi & Tools</h4>
+                        <div class="modal-tech-tags" id="modalProjectTech"></div>
+                    </div>
+
+                    <div class="modal-info-block">
+                        <h4><i data-feather="zap"></i> Solusi & Keunggulan</h4>
+                        <p id="modalProjectSolution"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact">
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="section-subtitle">
+            Tertarik bekerja sama atau menawarkan peluang magang? Jangan ragu untuk mengirimkan pesan!
+        </p>
+
+        <div class="contact-card-wrapper">
+            <!-- Kolom Kiri: Form Kirim Pesan -->
+            <div class="contact-form-column">
+                <div class="contact-form-header">
+                    <div class="contact-header-icon">
+                        <i data-feather="mail"></i>
+                    </div>
+                    <div>
+                        <h3>Kirim Pesan</h3>
+                        <p>Isi formulir di bawah ini untuk menghubungi saya secara langsung.</p>
+                    </div>
+                </div>
+
+                <!-- Box Status Notifikasi (Sukses / Error) -->
+                <div id="contactStatusBox" class="contact-status-box" style="display: none;" role="alert"></div>
+
+                <form id="contactForm" class="contact-form" novalidate>
+                    <!-- Nama Pengirim -->
+                    <div class="form-group">
+                        <label for="contactName">Nama Lengkap <span class="required-star">*</span></label>
+                        <div class="input-with-icon">
+                            <i data-feather="user"></i>
+                            <input type="text" id="contactName" name="name" placeholder="Nama Anda" autocomplete="name" required>
+                        </div>
+                        <span class="field-error-msg" id="nameError"></span>
+                    </div>
+
+                    <!-- Email Pengirim -->
+                    <div class="form-group">
+                        <label for="contactEmail">Alamat Email <span class="required-star">*</span></label>
+                        <div class="input-with-icon">
+                            <i data-feather="at-sign"></i>
+                            <input type="email" id="contactEmail" name="email" placeholder="nama@contoh.com" autocomplete="email" required>
+                        </div>
+                        <span class="field-error-msg" id="emailError"></span>
+                    </div>
+
+                    <!-- Subjek Pesan -->
+                    <div class="form-group">
+                        <label for="contactSubject">Subjek Pesan <span class="required-star">*</span></label>
+                        <div class="input-with-icon">
+                            <i data-feather="file-text"></i>
+                            <input type="text" id="contactSubject" name="subject" placeholder="Subjek atau topik pesan" required>
+                        </div>
+                        <span class="field-error-msg" id="subjectError"></span>
+                    </div>
+
+                    <!-- Isi Pesan -->
+                    <div class="form-group">
+                        <label for="contactMessage">Pesan Anda <span class="required-star">*</span></label>
+                        <div class="input-with-icon textarea-wrapper">
+                            <i data-feather="message-square"></i>
+                            <textarea id="contactMessage" name="message" rows="5" placeholder="Tuliskan pesan Anda secara lengkap di sini..." required></textarea>
+                        </div>
+                        <span class="field-error-msg" id="messageError"></span>
+                    </div>
+
+                    <!-- Tombol Kirim Pesan -->
+                    <button type="submit" class="contact-submit-btn" id="contactSubmitBtn">
+                        <i data-feather="send"></i>
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Kolom Kanan: Info Kontak & Social Media -->
+            <div class="contact-info-column">
+                <div class="contact-info-header">
+                    <h3>Connect With Me</h3>
+                    <p>Temukan dan terhubung dengan saya melalui platform berikut.</p>
+                </div>
+
+                <!-- Info Email Pribadi Langsung -->
+                <div class="contact-direct-card">
+                    <div class="direct-email-icon">
+                        <i data-feather="inbox"></i>
+                    </div>
+                    <div class="direct-email-details">
+                        <span class="direct-label">Email Pribadi</span>
+                        <a href="mailto:arfaalfahim64@gmail.com" class="direct-value">arfaalfahim64@gmail.com</a>
+                    </div>
+                    <button type="button" class="btn-copy-email" id="copyEmailBtn" title="Salin Alamat Email" aria-label="Salin Alamat Email">
+                        <i data-feather="copy"></i>
+                    </button>
+                </div>
+
+                <!-- Status Ketersediaan -->
+                <div class="contact-status-badge">
+                    <span class="pulse-indicator"></span>
+                    <span>Terbuka untuk peluang magang & kolaborasi</span>
+                </div>
+
+                <!-- Social Links (LinkedIn & GitHub yang tidak diubah) -->
+                <div class="social-links-container">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/arfa-alfahim-524762394?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-button linkedin">
+                        <i data-feather="linkedin"></i>
+                        <span>LinkedIn</span>
+                        <i data-feather="external-link"></i>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/arfaal" target="_blank" rel="noopener noreferrer" class="social-button github">
+                        <i data-feather="github"></i>
+                        <span>GitHub</span>
+                        <i data-feather="external-link"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+            <p>&copy; 2026 Arfa Alfahim. SMK Plus Pelita Nusantara.</p>
+        </footer>
+
+        <script>
+            // ==========================================
+            // FEATHER ICONS
+            // ==========================================
+
+            feather.replace();
+
+
+            // ==========================================
+            // NAVBAR ACTIVE SECTION
+            // ==========================================
+
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-links a');
+
+            window.addEventListener('scroll', () => {
+
+                let current = '';
+
+                sections.forEach(section => {
+
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+
+                    if (
+                        window.scrollY >= sectionTop - 200 &&
+                        window.scrollY < sectionTop + sectionHeight
+                    ) {
+                        current = section.getAttribute('id');
+                    }
+
+                });
+
+
+                navLinks.forEach(link => {
+
+                    link.classList.remove('active');
+
+                    const href = link.getAttribute('href');
+
+                    if (href && href.includes('#' + current)) {
+                        link.classList.add('active');
+                    }
+
+                });
+
+            });
+
+
+
+
+
+            // ==========================================
+            // SMOOTH SCROLL
+            // ==========================================
+
+            document.querySelectorAll('a[href^="#"]').forEach(link => {
+
+                link.addEventListener('click', function (event) {
+
+                    const targetId = this.getAttribute('href');
+
+                    if (targetId === '#') {
+                        return;
+                    }
+
+                    const target = document.querySelector(targetId);
+
+                    if (target) {
+
+                        event.preventDefault();
+
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+
+                    }
+
+                });
+
+            });
+
+
+            // ==========================================
+            // UPDATE FEATHER ICONS
+            // ==========================================
+
+            window.addEventListener('load', () => {
+                feather.replace();
+            });
+
+        </script>
+
+    <script src="cert-slider.js"></script>
+    <script src="project-showcase.js"></script>
+    <script src="skills-filter.js"></script>
+    <script src="contact-form.js"></script>
+</body>
+
+</html>
